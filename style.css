@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+text-decoration: none;
+color: aliceblue;
+}
+.header{
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+font-size: 2rem;
+font-weight: 200;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+.me{
+font-size: 4.5rem;
+color: azure;
+position: absolute;
+top: 200px;
+left: 100px;
+width: 500px;
+
+}
+.describe{
+position: absolute;
+color: azure;
+width: 600px;
+top:490px;
+left: 100px;
+font-size: 1.3rem;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.known_technology{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin-left: 10rem;
+    border: 3px solid black;
+    border-radius: 22px;
+    width: 50vw;
+    box-shadow: 7px 12px 23px aliceblue;
+    background-color: aliceblue;
+}
+.tech{
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+#teche{
+    margin-top: 10px;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 70px ;
+    margin-bottom: 20px;
+    text-shadow: 8px 2px 12px aliceblue;
+    color: aliceblue;
+    border-top: 1px solid white;
+}
+#project{
+    color: aliceblue;
+    padding: 15px  45px ;
+    margin: 20px;
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 8px 2px 12px aliceblue;
+}
+.p_p{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    row-gap: 50px;
+    padding-left: 6rem;
+    font-size: 2rem;
+  background-color: aliceblue;
+  padding: 50px;
+  width: 78vw;
+  margin: 0 auto;
+  border-radius: 20px;
+    
+}
+.one img{
+    width: 350px;
+   border: 2px solid whitesmoke;
+   border-radius: 12px;
+   transition: transform 10ms ease-in-out;
+   margin-bottom: 10px;
+}
+.one img:hover + .heading{
+   color: black
+}
+.one img:hover{
+    transform: scale(1.2);
+}
+footer .main_footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.myproject{
+    margin-bottom: 50px;
+}
+.two_circle img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+   
+}
+.heading{
+    color: white;
+}
+
